@@ -1,0 +1,52 @@
+basePath: /api/v1
+definitions:
+  controllers.ErrorResponse:
+    properties:
+      message:
+        example: An error occurred
+        type: string
+    type: object
+  controllers.TokenResponse:
+    properties:
+      token:
+        example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMjMiLCJ1c2VybmFtZSI6IkJlYXN0Iiwicm9sZXMiOlsiYWRtaW4iLCJwcm8tdXNlciJdLCJleHAiOjE2NDg0MzUzMDAsImlzcyI6ImdvLWJlYXN0In0.Z6q2hmZYrRzvR6VZQab3t1Q-X3chVJjXHVtjvOVq1K0
+        type: string
+    type: object
+host: localhost:8080
+info:
+  contact: {}
+  description: This is a REST API built with Gin framework.
+  title: GO Gin REST BPOILERPLATE
+  version: "1.0"
+paths:
+  /login:
+    post:
+      consumes:
+      - application/json
+      description: Logs in a user and returns an access token
+      parameters:
+      - description: Username
+        in: body
+        name: username
+        required: true
+        schema:
+          type: string
+      - description: Password
+        in: body
+        name: password
+        required: true
+        schema:
+          type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.TokenResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/controllers.ErrorResponse'
+      summary: User login
+swagger: "2.0"

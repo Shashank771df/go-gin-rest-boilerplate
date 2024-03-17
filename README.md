@@ -4,7 +4,7 @@ Creating a well-descriptive README for your Gin REST boilerplate is crucial for 
 
 # Gin REST Boilerplate
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/yourrepository.svg?style=flat-square)](https://github.com/yourusername/yourrepository/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/Shashank771df/go-gin-rest-boilerplate.svg?style=flat-square)](https://github.com/Shashank771df/go-gin-rest-boilerplate/stargazers)
 
 ## Overview
 
@@ -26,7 +26,7 @@ Follow these steps to get started with Gin REST Boilerplate:
 
    ```bash
    git clone https://github.com/Shashank771df/go-gin-rest-boilerplate
-   cd yourrepository
+   cd go-gin-rest-boilerplate
    ```
 
 2. **Install dependencies:**

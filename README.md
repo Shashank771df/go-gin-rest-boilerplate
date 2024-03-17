@@ -1,7 +1,3 @@
-Creating a well-descriptive README for your Gin REST boilerplate is crucial for attracting users and contributors. Here's a template you can customize to suit your project:
-
----
-
 # Gin REST Boilerplate
 
 [![GitHub stars](https://img.shields.io/github/stars/Shashank771df/go-gin-rest-boilerplate.svg?style=flat-square)](https://github.com/Shashank771df/go-gin-rest-boilerplate/stargazers)

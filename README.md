@@ -1,4 +1,4 @@
-# Gin REST Boilerplate
+# Golang Gin REST Boilerplate
 
 [![GitHub stars](https://img.shields.io/github/stars/Shashank771df/go-gin-rest-boilerplate.svg?style=flat-square)](https://github.com/Shashank771df/go-gin-rest-boilerplate/stargazers)
 
